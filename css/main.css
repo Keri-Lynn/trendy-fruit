@@ -11,53 +11,37 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-
-- 'padding'
-- 'font-weight'
-- 'font-size'
-- 'font-style'
-- 'height'
-- 'max-width'
-
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.section {
-  overflow: hidden;
-}
-
-.info1 {
-  background-color: #e97065;
-}
-
-.info2 {
-  background-color: #fbd25e;
-}
-
-.info3 {
-  background-color: #e86033;
+  font-family: "Open Sans", sans-serif;
 }
 
 .watermelon {
-  font-family: 'Rammetto One', cursive;
   background-color: #e97065;
 }
 
 .starfruit {
-  font-family: 'Gravitas One', cursive;
   background-color: #fbd25e;
 }
 
 .persimmon {
-  font-family: 'Comfortaa', cursive;
   background-color: #e86033;
+}
+
+.watermelon h2 {
+  font-family: "Rammetto One", serif;
+}
+
+.starfruit h2 {
+  font-family: "Gravitas One", serif;
+}
+
+.persimmon h2 {
+  font-family: Comfortaa, serif;
 }
